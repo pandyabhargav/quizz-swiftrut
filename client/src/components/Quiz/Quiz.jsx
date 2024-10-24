@@ -13,7 +13,7 @@ const Quiz = () => {
   const [showScore, setShowScore] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
   const [dataNotFound, setDataNotFound] = useState(false); 
-  const API_URL = "http://localhost:5000/api/quiz/js";
+  const API_URL = "http://localhost:3000/api/quiz/js";
 
   useEffect(() => {
     const fetchQuestions = async () => {
