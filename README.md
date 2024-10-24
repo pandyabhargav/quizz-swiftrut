@@ -23,17 +23,17 @@ This is a ** Quiz Application** built using **Node.js**, **MongoDB**, and **Mong
 
 ### Installation  Backend
 
-**PS C:\quizzapp-swiftrut> # npm i**
+**PS C:\quizzapp-swiftrut>** # npm i
 
-**PS C:\quizzapp-swiftrut> # npm run start**
+**PS C:\quizzapp-swiftrut>** # npm run start
 
 
 ### Installation Frontend
 
-**PS C:\quizzapp-swiftrut> # cd client**
+**PS C:\quizzapp-swiftrut>** # cd client
 
-**PS C:\quizzapp-swiftrut\client> # npm i**
+**PS C:\quizzapp-swiftrut\client>** # npm i
 
-**PS C:\quizzapp-swiftrut\client> # npm run dev**
+**PS C:\quizzapp-swiftrut\client>** # npm run dev
 
 
