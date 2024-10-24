@@ -22,7 +22,7 @@ const Quiz = () => {
         if (data.length === 0) {
           setDataNotFound(true); 
         } else {
-          setQuestions(data.sort(() => 0.5 - Math.random()).slice(0, 20));
+          setQuestions(data.sort(() => 0.5 - Math.random()).slice(0, 10));
         }
       } catch (error) {
         console.error(error);
