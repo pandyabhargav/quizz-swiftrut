@@ -11,7 +11,7 @@ const app = express();
 const _diname = path.resolve();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: ["https://quizz-swiftrut.onrender.com","http://localhost:5173"],
   methods: ["POST", "GET"],
   credentials: true,
 }));
