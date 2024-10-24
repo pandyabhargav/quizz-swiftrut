@@ -1,4 +1,4 @@
-# JavaScript Quiz App
+# Quiz App
 
 This is a **Quiz Application** built using **Node.js**, **MongoDB**, and **Mongoose**. The app allows users to answer multiple-choice questions related to JavaScript, with the correct answers being stored in a MongoDB database.
 
