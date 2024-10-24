@@ -18,7 +18,7 @@ This is a **Quiz Application** built using **Node.js**, **MongoDB**, and **Mongo
 
 ## Getting Started
 
-### Live url : https://quizz-swiftrut.onrender.com
+## Live url : https://quizz-swiftrut.onrender.com
 
 
 ### Installation  Backend
