@@ -1,0 +1,57 @@
+div.disabled:first-of-type .connector{
+    opacity: 0;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .spinner {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .circle {
+    width: 4rem;
+    height: 4rem;
+    border: 4px solid transparent; 
+    border-top: 4px solid #4caf50;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; 
+  }
+  
+
+  .data-not-found {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .data-not-found h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .data-not-found p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .data-not-found .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .data-not-found .btn:hover {
+    background-color: #0056b3;
+  }
